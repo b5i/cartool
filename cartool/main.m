@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#include <CoreGraphics/CGImage.h> 
+#include <ImageIO/CGImageSource.h> 
+#include <ImageIO/CGImageDestination.h>
 
 typedef enum _kCoreThemeIdiom {
 	kCoreThemeIdiomUniversal,
